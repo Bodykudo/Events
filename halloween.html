@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="utils.css" />
+
+    <style>
+      /* Fonts and Variables */
+
+      @font-face {
+        font-family: "MidnightMinutes";
+        src: url(fonts/MidnightMinutes.otf);
+      }
+
+      :root {
+        --font: "MidnightMinutes";
+        --bg: url("img/bg_hw.png");
+        --text-bg: url("img/text_hw.png");
+        --text-duration: 30s;
+        --bg-duration: 10s;
+      }
+
+      /* Lights Animations */
+
+      @keyframes first-flash {
+        0%,
+        100% {
+          background: rgba(255, 88, 10, 1);
+          box-shadow: 0px 2px 20px 4px rgba(255, 88, 10, 1);
+        }
+
+        50% {
+          background: rgba(255, 88, 10, 0.5);
+          box-shadow: 0px 2px 20px 4px rgba(255, 88, 10, 0.3);
+        }
+      }
+
+      @keyframes second-flash {
+        0%,
+        100% {
+          background: rgba(20, 158, 220, 1);
+          box-shadow: 0px 2px 20px 4px rgba(20, 158, 220, 1);
+        }
+
+        50% {
+          background: rgba(20, 158, 220, 0.5);
+          box-shadow: 0px 2px 20px 4px rgba(20, 158, 220, 0.3);
+        }
+      }
+
+      @keyframes third-flash {
+        0%,
+        100% {
+          background: rgba(193, 84, 193, 1);
+          box-shadow: 0px 2px 20px 4px rgba(193, 84, 193, 1);
+        }
+
+        50% {
+          background: rgba(193, 84, 193, 0.5);
+          box-shadow: 0px 2px 20px 4px rgba(193, 84, 193, 0.3);
+        }
+      }
+
+      @keyframes fourth-flash {
+        0%,
+        100% {
+          background: rgba(140, 156, 118, 1);
+          box-shadow: 0px 2px 20px 4px rgba(140, 156, 118, 1);
+        }
+
+        50% {
+          background: rgba(140, 156, 118, 0.5);
+          box-shadow: 0px 2px 20px 4px rgba(140, 156, 118, 0.3);
+        }
+      }
+    </style>
+
+    <link rel="icon" href="img/icon_hw.png">
+    <title>Halloween</title>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="wire">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+      </ul>
+
+      <div class="flex-container">
+        <h1 class="animated">Trick Or Treat?</h1>
+        <!-- <img src="https://i.ibb.co/8D6XK4m/logo.png" alt="logo" /> -->
+      </div>
+
+      <ul class="wire reverse">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+        <li class="extra"></li>
+      </ul>
+    </div>
+  </body>
+</html>
